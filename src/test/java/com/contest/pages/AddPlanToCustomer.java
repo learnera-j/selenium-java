@@ -26,7 +26,7 @@ public class AddPlanToCustomer extends BasePage {
     @FindBy(xpath = "//*[@id=\"main\"]/div/ul/li/a")
     private WebElement returnHome;
    
-    
+    //addplantocustomer
     public AddPlanToCustomer(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
